@@ -39,6 +39,14 @@
   margin: 3.2rem auto;
 }
 
+.page-header .header-content p {
+  max-width: 30rem;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: var(--color-text-in-primary);
+  margin-top: 2.4rem;
+}
+
 .page-header .header-content strong {
   font: 700 3.6rem Archivo;
   line-height: 4.2rem;
@@ -55,7 +63,7 @@
   .page-header .header-content {
     flex: 1;
     max-width: 740px;
-    max-width: 0 auto;
+    margin: 0 auto;
     padding-bottom: 48px;
     display: flex;
     flex-direction: column;
